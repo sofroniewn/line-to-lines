@@ -1,0 +1,23 @@
+{
+  "name": "line-to-lines",
+  "version": "0.0.1",
+  "description": "Determines distance from a line to a collection of lines if there is an intersection",
+  "main": "ray-to-lines.js",
+  "directories": {
+    "test": "test"
+  },
+  "dependencies": {
+    "lodash": "^3.10.1",
+    "line-to-line": "^0.0.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "node ./test/test.js"
+  },
+  "keywords": [
+    "ray",
+    "poly"
+  ],
+  "author": "Nicholas Sofroniew",
+  "license": "MIT"
+}
