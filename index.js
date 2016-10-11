@@ -1,5 +1,5 @@
 var _ = require('lodash')
-var linetoline = require('line-to-line')
+var linetoline = require('line-intersect-line')
 
 
 module.exports = function (lineA, lines) {
@@ -25,6 +25,3 @@ module.exports = function (lineA, lines) {
   }
   return {startPoint: lineA[0], distance:Infinity, angle:0, intersection:lineA[0], id:false, component:false};
 }
-
-
-

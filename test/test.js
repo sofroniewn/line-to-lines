@@ -11,12 +11,12 @@ function check(x, y) {
 }
 
 
-point = [0,0]
-angle = 90
+lineA = [[0, 0], [0, 2]]
 lines = [[[-1,1],[1,1],[1,3],[-1,3]],
   [[2, 2], [2, 3]]]
-results = raytopoly(point, angle, lines)
+results = raytopoly(lineA, lines)
+console.log(results)
 check(results.distance, 1)
-check(results.angle, -90)
-check(results.intesection[0], 0)
-check(results.intesection[1], 1)
+check(results.angle, 90)
+check(results.intersection[0], 0)
+check(results.intersection[1], 1)
